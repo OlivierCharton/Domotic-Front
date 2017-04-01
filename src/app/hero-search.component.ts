@@ -12,7 +12,7 @@ import { HeroSearchService } from './hero-search.service';
 import { Hero } from './hero';
 @Component({
   selector: 'hero-search',
-  moduleId: module.id,
+  moduleId: module.id.replace('/dist/app', ''),
   templateUrl: './hero-search.component.html',
   styleUrls: [ './hero-search.component.css' ],
   providers: [HeroSearchService]

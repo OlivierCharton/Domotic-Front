@@ -6,7 +6,7 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'my-heroes',
-  moduleId: module.id,
+  moduleId: module.id.replace('/dist/app', ''),
   templateUrl: 'heroes.component.html',
   styleUrls: ['heroes.component.css'],
 })

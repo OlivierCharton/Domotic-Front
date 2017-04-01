@@ -8,7 +8,7 @@ import { Hero } from './hero';
 
 @Component({
   selector: 'my-hero-detail',
-  moduleId: module.id,
+  moduleId: module.id.replace('/dist/app', ''),
   templateUrl: 'hero-detail.component.html',
   styleUrls: ['hero-detail.component.css']
 })
